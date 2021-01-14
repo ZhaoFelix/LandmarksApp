@@ -44,6 +44,7 @@
 		DCDE7A4625AFE32300E66C0A /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE7A4525AFE32300E66C0A /* PageViewController.swift */; };
 		DCDE7A4B25AFE5F200E66C0A /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE7A4A25AFE5F200E66C0A /* FeatureCard.swift */; };
 		DCDE7A5025AFE74800E66C0A /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE7A4F25AFE74800E66C0A /* PageView.swift */; };
+		DCDE7A5825B0086A00E66C0A /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE7A5725B0086A00E66C0A /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,7 @@
 		DCDE7A4525AFE32300E66C0A /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		DCDE7A4A25AFE5F200E66C0A /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		DCDE7A4F25AFE74800E66C0A /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		DCDE7A5725B0086A00E66C0A /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +209,7 @@
 				DCC80E1425AEE09F00B2DF1D /* Badges */,
 				DCC80DF425AECF5100B2DF1D /* Helpers */,
 				DCC80DF325AECF4700B2DF1D /* Landmarks */,
+				DCDE7A5725B0086A00E66C0A /* PageControl.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 				DCA0D07125AE954800CE07B0 /* MapView.swift in Sources */,
 				DCC80E0825AEDDE800B2DF1D /* RotateBadgeSymbol.swift in Sources */,
 				DC0EACE625AE8D8A00E3E48F /* LandmarksAppApp.swift in Sources */,
+				DCDE7A5825B0086A00E66C0A /* PageControl.swift in Sources */,
 				DCC80E2425AEE2D800B2DF1D /* HikeView.swift in Sources */,
 				DCC80E4325AEEA4200B2DF1D /* CategoryItem.swift in Sources */,
 				DCC80DEF25AECEAA00B2DF1D /* FavoriteButton.swift in Sources */,

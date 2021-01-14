@@ -32,8 +32,7 @@ struct HikeGraph: View {
     }
     
     var body: some View {
-        let data = hike.observations
-        
+       
         Text("")
     }
 

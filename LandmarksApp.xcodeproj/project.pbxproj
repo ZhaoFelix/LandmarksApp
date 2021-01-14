@@ -41,6 +41,9 @@
 		DCDE7A3325AFD16500E66C0A /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE7A3225AFD16500E66C0A /* ProfileSummary.swift */; };
 		DCDE7A3825AFD27700E66C0A /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE7A3725AFD27700E66C0A /* HikeBadge.swift */; };
 		DCDE7A4125AFDA0800E66C0A /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE7A4025AFDA0800E66C0A /* ProfileEditor.swift */; };
+		DCDE7A4625AFE32300E66C0A /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE7A4525AFE32300E66C0A /* PageViewController.swift */; };
+		DCDE7A4B25AFE5F200E66C0A /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE7A4A25AFE5F200E66C0A /* FeatureCard.swift */; };
+		DCDE7A5025AFE74800E66C0A /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE7A4F25AFE74800E66C0A /* PageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +104,9 @@
 		DCDE7A3225AFD16500E66C0A /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		DCDE7A3725AFD27700E66C0A /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 		DCDE7A4025AFDA0800E66C0A /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		DCDE7A4525AFE32300E66C0A /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		DCDE7A4A25AFE5F200E66C0A /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		DCDE7A4F25AFE74800E66C0A /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,10 +161,12 @@
 				DCC80DDA25AEBBE500B2DF1D /* Views */,
 				DCC80DCB25AE9AB500B2DF1D /* landmarkData.json */,
 				DCC80E1525AEE16500B2DF1D /* hikeData.json */,
+				DCDE7A4F25AFE74800E66C0A /* PageView.swift */,
 				DC0EACE525AE8D8A00E3E48F /* LandmarksAppApp.swift */,
 				DC0EACE925AE8D8C00E3E48F /* Assets.xcassets */,
 				DC0EACEE25AE8D8C00E3E48F /* Info.plist */,
 				DC0EACEB25AE8D8C00E3E48F /* Preview Content */,
+				DCDE7A4525AFE32300E66C0A /* PageViewController.swift */,
 			);
 			path = LandmarksApp;
 			sourceTree = "<group>";
@@ -207,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				DCC80DD025AE9ACC00B2DF1D /* Landmark.swift */,
+				DCDE7A4A25AFE5F200E66C0A /* FeatureCard.swift */,
 				DCC80DD525AEBAA200B2DF1D /* ModelData.swift */,
 				DCDE7A2825AFCFDD00E66C0A /* Profile.swift */,
 			);
@@ -413,6 +422,7 @@
 				DCDE7A2925AFCFDD00E66C0A /* Profile.swift in Sources */,
 				DC0EACE825AE8D8A00E3E48F /* ContentView.swift in Sources */,
 				DCC80E3625AEE73B00B2DF1D /* CategoryHome.swift in Sources */,
+				DCDE7A4B25AFE5F200E66C0A /* FeatureCard.swift in Sources */,
 				DCC80E2925AEE37900B2DF1D /* HikeGraph.swift in Sources */,
 				DCC80E0D25AEDF0300B2DF1D /* Badge.swift in Sources */,
 				DCA0D07125AE954800CE07B0 /* MapView.swift in Sources */,
@@ -426,11 +436,13 @@
 				DCDE7A2E25AFD12300E66C0A /* ProfileHost.swift in Sources */,
 				DCC80DF925AED3DB00B2DF1D /* HexagonParameters.swift in Sources */,
 				DCC80E0325AEDA3300B2DF1D /* BadgeSymbol.swift in Sources */,
+				DCDE7A5025AFE74800E66C0A /* PageView.swift in Sources */,
 				DCC80DE525AEBE7700B2DF1D /* LandmarkList.swift in Sources */,
 				DCDE7A4125AFDA0800E66C0A /* ProfileEditor.swift in Sources */,
 				DCC80DEA25AEBFA700B2DF1D /* LandmarkDetail.swift in Sources */,
 				DCA0D06C25AE945400CE07B0 /* CircleImage.swift in Sources */,
 				DCC80DD125AE9ACC00B2DF1D /* Landmark.swift in Sources */,
+				DCDE7A4625AFE32300E66C0A /* PageViewController.swift in Sources */,
 				DCC80DE025AEBC3F00B2DF1D /* LandmarkRow.swift in Sources */,
 				DCDE7A3825AFD27700E66C0A /* HikeBadge.swift in Sources */,
 				DCC80DD625AEBAA200B2DF1D /* ModelData.swift in Sources */,
